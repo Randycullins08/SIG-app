@@ -18,7 +18,24 @@
   background-image: url(/TopHeaderImage.png);
 }
 
+a {
+  text-decoration: none;
+}
+
 a,
+p,
 svg {
+  color: var(--green-two);
+}
+
+h1,
+h2 {
+  color: var(--green-two);
+  font-family: "proxima-nova", sans-serif;
+  font-size: xx-large;
+}
+
+button {
+  background-color: var(--tan-two);
   color: var(--green-two);
 }
