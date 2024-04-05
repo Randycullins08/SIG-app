@@ -46,12 +46,10 @@ const Navbar = () => {
           {/* Mobile menu icon */}
           <button
             onClick={toggleMobileMenu}
-            className="text-white md:hidden focus:outline-none"
+            className="nav-icon md:hidden focus:outline-none"
           >
             <BarIcon
-              className={`z-50 text-gray-900 ${
-                isMobileMenuOpen ? "block" : "hidden"
-              }`}
+              className={`z-50 ${isMobileMenuOpen ? "block" : "hidden"}`}
             />
           </button>
         </div>
@@ -66,7 +64,7 @@ const Navbar = () => {
         {/* Close button */}
         <button
           onClick={closeMobileMenu}
-          className="text-white absolute top-4 right-4 focus:outline-none"
+          className="nav-icon absolute top-4 right-4 focus:outline-none"
         >
           <XIcon />
         </button>

@@ -25,7 +25,10 @@ const ThreeCardsSection = () => {
               </div>
               {/* Column 3 (Button) */}
               <div>
-                <button className="bg-e7cbaf py-2 px-4 rounded-md">
+                <button
+                  className="py-2 px-4 rounded-md"
+                  style={{ backgroundColor: "#e7cbaf" }}
+                >
                   Book Time
                 </button>
               </div>
@@ -48,7 +51,10 @@ const ThreeCardsSection = () => {
               </div>
               {/* Column 3 (Button) */}
               <div>
-                <button className="bg-e7cbaf py-2 px-4 rounded-md">
+                <button
+                  className="py-2 px-4 rounded-md"
+                  style={{ backgroundColor: "#e7cbaf" }}
+                >
                   Book Time
                 </button>
               </div>
@@ -71,7 +77,10 @@ const ThreeCardsSection = () => {
               </div>
               {/* Column 3 (Button) */}
               <div>
-                <button className="bg-e7cbaf py-2 px-4 rounded-md">
+                <button
+                  className="py-2 px-4 rounded-md"
+                  style={{ backgroundColor: "#e7cbaf" }}
+                >
                   Book Time
                 </button>
               </div>

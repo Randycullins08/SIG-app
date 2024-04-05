@@ -14,7 +14,7 @@ export default function HeroSection() {
           <img
             src="/UtahGrownLogo-Green.png"
             alt="Logo"
-            className="w-70 md:w-70 lg:w-70 xl:w-90 h-48 md:h-50 lg:h-50 xl:h-50 mb-4 z-10"
+            className="w-70 md:w-70 lg:w-70 xl:w-90 h-48 md:h-50 lg:h-50 xl:h-50 mb-4"
           />
         </div>
       </div>
